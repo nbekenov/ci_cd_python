@@ -21,5 +21,5 @@ jobs:
           name: run tests
           command: |
             source .env/bin/activate
-            flake8 --exclude=venv* --statistics
+            flake8 --exclude=.env --statistics
             python -m pytest -v --cov=my_func
