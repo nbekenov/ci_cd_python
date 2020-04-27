@@ -20,6 +20,6 @@ jobs:
       - run:
           name: run tests
           command: |
-            . venv/bin/activate
+            source .env/bin/activate
             flake8 --exclude=venv* --statistics
             python -m pytest -v --cov=my_func
