@@ -12,5 +12,6 @@ def test_subtract():
 def test_multiply():
     assert my_func.multiply(4, 5) == 20
 
+
 def test_multiply2():
     assert my_func.multiply(4, 10) == 40
