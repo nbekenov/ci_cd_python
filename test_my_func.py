@@ -7,3 +7,7 @@ def test_add():
 
 def test_subtract():
     assert my_func.subtract(4, 5) == -1
+
+
+def test_multiply():
+    assert my_func.multiply(4, 5) == 20
